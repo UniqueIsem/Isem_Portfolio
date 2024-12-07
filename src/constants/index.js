@@ -8,13 +8,13 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
+    java,
+    flutter,
+    firebase,
     carrent,
     jobit,
     tripguide,
@@ -79,8 +79,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Java",
+      icon: java,
     },
     {
       name: "Tailwind CSS",
@@ -91,24 +91,24 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Firebase",
+      icon: firebase,
     },
     {
       name: "Three JS",
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
+    },
+    {
+      name: "Flutter",
+      icon: flutter,
     },
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   

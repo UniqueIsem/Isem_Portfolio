@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import flutter from "./tech/flutter.png";
+import firebase from "./tech/firebase.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -54,6 +57,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  java,
+  flutter,
+  firebase,
   meta,
   shopify,
   starbucks,
