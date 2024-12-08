@@ -31,9 +31,9 @@ import tesla from "./company/tesla.png";
 import liantori from './company/liantori.jpeg';
 import teleperformance from './company/teleperformance.jpg';
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import cvgen from "./cvgen.jpg";
+import wisdrive from "./wisdrive.png";
+//import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -66,7 +66,6 @@ export {
   tesla,
   liantori,
   teleperformance,
-  carrent,
-  jobit,
-  tripguide,
+  cvgen,
+  wisdrive,
 };
