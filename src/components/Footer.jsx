@@ -1,34 +1,28 @@
 import React, {useState} from 'react'
-import { motion } from 'framer-motion';
 import { socials } from '../constants';
-import { div } from 'framer-motion/client';
 
-const Social = ({
-    icon,
-    link,
-}) => {
+const Social = ({ icon }) => {
     return (
-        <div onClick={() => window.open(link, "_blank")}>
+        <div className='flex flex-row items-center cursor-pointer'>
             {icon}
         </div>
     )
 }
 
-const Footer = (id, link) => {
-    const [active, setActive] = useState(' ');
-
+const Footer = () => {
   return (
-    <footer className='flex flex-row text-center'>        
-        <div>
-            isaac santos
-        </div>
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+    <footer className='flex flex-row justify-center items-center'>        
+        <div>Isaac Santos</div>
+        <div className='w-0.5 h-24 ms-5 bg-white'></div>
+        
+        <ul className='list-none hidden sm:flex flex-row gap-10 ms-20'>
           {socials.map((social) => (
-            <li
-              key={link.id}
-              onClick={() => setActive(link.title)}
-            >
-            </li>
+            <div key={social.name}>
+              <Social 
+                onClick={() => window.open(social.link, "_blank")}
+                icon={social.icon} />
+              <div className='text-center'>{social.name}</div>
+            </div>
           ))}
         </ul>
     </footer>

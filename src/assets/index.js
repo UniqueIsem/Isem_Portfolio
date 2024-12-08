@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
+import designer from "./backend.png";
+import developer from "./creator.png";
+import engineer from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -33,13 +33,16 @@ import teleperformance from './company/teleperformance.jpg';
 
 import cvgen from "./cvgen.jpg";
 import wisdrive from "./wisdrive.png";
-//import tripguide from "./tripguide.png";
+import pacman from "./pacman.png";
+import realestate from "./realestate.jpeg";
+import ducati from "./ducati.jpeg";
+//import route from "route.jpeg"
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
+  designer,
+  developer,
+  engineer,
   web,
   github,
   menu,
@@ -68,4 +71,8 @@ export {
   teleperformance,
   cvgen,
   wisdrive,
+  pacman,
+  realestate,
+  ducati,
+  //route
 };

@@ -22,6 +22,9 @@ module.exports = {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
     },
+    container: {
+      center: true,
+    },
   },
   plugins: [],
 };
