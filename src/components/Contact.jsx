@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { socials } from "../constants";
 
 const Contact = () => {
   const formRef = useRef();
@@ -74,7 +75,9 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        {/*<img src="../assets/linkedin.svg" alt="linkedin" />*/}
 
+        <img src="" alt="" />
         <form
           ref={formRef}
           onSubmit={handleSubmit}

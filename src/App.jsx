@@ -19,9 +19,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
-        <div className="w-full p-20  bg-gray-900">
-          <Footer />
-        </div>
+        {/*<Footer />*/}
       </div>
     </BrowserRouter>
   )

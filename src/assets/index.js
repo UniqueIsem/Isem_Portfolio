@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./Isem.png";
 import designer from "./backend.png";
 import developer from "./creator.png";
 import engineer from "./mobile.png";
@@ -36,7 +36,16 @@ import wisdrive from "./wisdrive.png";
 import pacman from "./pacman.png";
 import realestate from "./realestate.jpeg";
 import ducati from "./ducati.jpeg";
-//import route from "route.jpeg"
+import route from "./route.jpeg"
+
+import linkedin from "./linkedin.svg"
+
+import moto from "./blog/blogpost1.jpg";
+import travel from "./blog/blogpost2.jpg";
+import draw from "./blog/blogpost3.jpg";
+import martial from "./blog/blogpost4.jpg";
+import photo from "./blog/blogpost5.jpg";
+import author from "./blog/author.jpg";
 
 export {
   logo,
@@ -74,5 +83,12 @@ export {
   pacman,
   realestate,
   ducati,
-  //route
+  route,
+  moto,
+  travel,
+  draw,
+  martial,
+  photo,
+  author,
+  linkedin
 };
